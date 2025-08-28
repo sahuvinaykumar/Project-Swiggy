@@ -1,0 +1,530 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-1 {
+    width: 100%;
+    height: 830px;
+    background-color: #ff5200;
+    padding: 35px 10% 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.container-1 .left-image {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    height: 500px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.container-1 .left-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.container-1 .right-image {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    height: 500px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.container-1 .right-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar img {
+    height: 50px;
+    width: 160px;
+    background: transparent;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    height: 50px;
+    width: 50%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.navbar li div {
+    height: 55px;
+    width: 140px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar button {
+    height: 55px;
+    width: 140px;
+    border: transparent;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.heading {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 70%;
+    height: 250px;
+}
+
+.heading h1 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.heading .opt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+    margin-top: 10px;
+}
+
+.heading .opt div {
+    height: 60px;
+    width: 280px;
+    border: transparent;
+    background-color: #fff;
+    color: #948f91;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-1 .image {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.image a {
+    height: 100%;
+    width: 50%;
+
+}
+
+.image a img {
+    height: 360px;
+    width: 100%;
+}
+
+.container-2 {
+    width: 100%;
+    height: 550px;
+
+    padding: 100px 10% 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-2 .opt {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 30px;
+}
+
+.container-2 .opt button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: transparent;
+    cursor: pointer;
+}
+
+.dishes {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.dishes .div1,
+.div2 {
+    display: flex;
+    width: 103%;
+    gap: 15px;
+}
+
+.dishes a {
+
+    width: 180px;
+    height: 180px;
+
+}
+
+.dishes a img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container-3 {
+    height: 400px;
+    width: 100%;
+
+    padding: 50px 10% 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.head {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.opt {
+    height: 30px;
+
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 30px;
+}
+
+.opt button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: transparent;
+
+}
+
+.container-3 .groceries {
+    height: 270px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.groceries .items {
+    display: flex;
+    gap: 40px;
+    width: 102%;
+
+
+}
+
+.groceries .items .item {
+    height: 170px;
+    width: 150px;
+
+}
+
+.groceries .items .item a img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container-4 {
+    height: 620px;
+    width: 100%;
+
+    padding: 50px 10% 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-4 .cards {
+    height: 450px;
+    width: 100%;
+
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+}
+
+.container-4 .cards a .card {
+    height: 400px;
+    width: 350px;
+    background-color: rgba(217, 215, 215, 0.308);
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.container-4 .cards a .card .image {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
+
+.container-4 .cards a .card .image img {
+    height: 100%;
+    width: 100%;
+}
+
+.container-4 .cards a .card .image .name-rating {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    padding: 0px 8px;
+    background-color: rgba(0, 0, 0, 0.47);
+
+}
+
+.cards a .card .content {
+    padding: 10px;
+
+}
+
+.cards a .card .content .location-price .location,
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards a .card .content .location-price p {
+    font-size: 12px;
+}
+
+.cards a .card .location-distance .location,
+.distance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards a .card .location-distance p {
+    font-size: 12px;
+}
+
+.cards a .card .booking {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.155);
+    height: 20px;
+    width: 110px;
+    margin: 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+    padding: 3px;
+}
+
+.cards a .card .booking p {
+    font-size: 12px;
+    color: gray;
+}
+
+.cards a .card .flat {
+    height: 40px;
+    width: 100%;
+    background-color: #1ba672;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.cards a .card .flat p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.cards a .card .offers {
+    height: 40px;
+    width: 100%;
+    background-color: #c8f9e5;
+    border-radius: 10px;
+    margin: 15px 0px 7px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.cards a .card .offers p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1ba672;
+}
+
+.container-5 {
+    height: 350px;
+    width: 100%;
+
+    padding: 80px 5% 0px 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.food-delivery {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.food-delivery button {
+    flex: 0 0 calc(20% - 8px);
+    height: 50px;
+    color: rgb(78, 81, 86);
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: transparent;
+    border: 1px solid #c8c9cc;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 70px;
+    height: 550px;
+    width: 100%;
+    background-color: #f0f0f5;
+
+}
+
+.footer .content {
+    height: 75%;
+    width: 100%;
+    padding: 50px 15% 0px 15%;
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer .content ul {
+    list-style: none;
+
+}
+
+.footer .content ul li a {
+    text-decoration: none;
+    color: #67696e;
+}
+
+.footer .content ul li {
+
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.footer .content h3 {
+    color: black;
+    font-weight: 600;
+
+}
+
+.footer .content .image {
+    width: 100%;
+    height: 25px;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .content .image img {
+    height: 17px;
+    width: 17px;
+}
+
+.footer .hr {
+    height: 2%;
+    margin: 0px 5%;
+    border-bottom: 1px solid #898b90;
+    ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .foot {
+    height: 23%;
+    width: 100%;
+    padding: 0px 15% 0px 15%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}

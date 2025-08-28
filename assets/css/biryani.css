@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f5;
+    display: flex;
+    padding: 0px 10%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+ul li a img {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+
+}
+
+ul li h2,
+p {
+    font-size: 15px;
+}
+
+ul li i {
+    font-size: 20px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.container1 {
+    width: 100%;
+    padding: 0px 10%;
+}
+
+.type-des {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.type-des h2 {
+    font-size: 40px;
+}
+
+.type-des p {
+    font-size: 20px;
+}
+
+.filter-opt {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+.filter {
+    border: 2px solid rgba(128, 128, 128, 0.215);
+    padding: 8px 10px;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    color: rgba(0, 0, 0, 0.678);
+
+}
+
+.cards {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cards a {
+    height: 100%;
+    width: 23%;
+    text-decoration: none;
+    color: black;
+}
+
+.cards a .card {
+    width: 100%;
+    height: 100%;
+}
+
+.div1 {
+    height: 60%;
+    width: 100%;
+    background-color: gray;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.div1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.price {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    color: #f0f0f5;
+    font-size: 14px;
+    padding: 15px 0px 7px 10px;
+    background-color: rgba(0, 0, 0, 0.457);
+}
+
+.div2 {
+    height: 40%;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.rating-time {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    height: 15px;
+
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: green;
+    color: #f0f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
