@@ -339,7 +339,7 @@
     position: absolute;
     bottom: 0%;
     padding: 0px 8px;
-    background: linear-gradient(to top,black,rgba(0, 0, 0, 0.025));
+    background: linear-gradient(to top,black,rgba(0, 0, 0, 0));
 
 }
 
