@@ -197,6 +197,8 @@
     flex-direction: column;
     margin-top: 25px;
     overflow: hidden;
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
 }
 
 .dishes .div1,
@@ -337,7 +339,7 @@
     position: absolute;
     bottom: 0%;
     padding: 0px 8px;
-    background-color: rgba(0, 0, 0, 0.47);
+    background: linear-gradient(to top,black,rgba(0, 0, 0, 0.025));
 
 }
 
@@ -527,4 +529,9 @@
     display: flex;
     align-items: center;
     gap: 25px;
+}
+
+.foot a:hover {
+    transform: scale(1.05);
+    transition-duration: 0.6s;
 }

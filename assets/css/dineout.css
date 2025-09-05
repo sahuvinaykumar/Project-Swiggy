@@ -174,7 +174,9 @@ a {
     position: absolute;
     bottom: 0%;
     padding: 0px 8px;
-    background-color: rgba(0, 0, 0, 0.47);
+    /* background-color: rgba(0, 0, 0, 0.47); */
+    background: linear-gradient(to top,black,rgba(0, 0, 0, 0));
+
 
 }
 
