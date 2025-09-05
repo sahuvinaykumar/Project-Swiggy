@@ -1,15 +1,15 @@
 # Project-Swiggy
 In this swiggy project , I have design some of swiggy webpage using html, css.
 
-<img width="1920" height="5025" alt="screencapture-127-0-0-1-5500-index-html-2025-08-28-23_41_23" src="https://github.com/user-attachments/assets/be708b26-5329-4192-8a84-c778c94f7df2" />
+<img width="1920" height="5025" alt="screencapture-127-0-0-1-5501-index-html-2025-09-05-13_18_37" src="https://github.com/user-attachments/assets/baf4505e-25d8-4a0b-8a4d-b50883580db1" />
+
+
+<img width="1920" height="6275" alt="screencapture-127-0-0-1-5501-dineout-html-2025-09-05-13_19_04" src="https://github.com/user-attachments/assets/bdd7f29f-24da-423a-9440-31962668712f" />
 
 
 
-<img width="1920" height="6275" alt="screencapture-127-0-0-1-5500-dineout-html-2025-08-28-23_41_46" src="https://github.com/user-attachments/assets/325dd16e-432a-4d35-aa0e-131e29a154f2" />
 
-
-
-<img width="1920" height="1871" alt="screencapture-127-0-0-1-5500-biryani-html-2025-08-28-23_42_19" src="https://github.com/user-attachments/assets/898957da-1878-483b-a13a-33220f9643a4" />
+<img width="1920" height="1871" alt="screencapture-127-0-0-1-5501-biryani-html-2025-09-05-13_19_46" src="https://github.com/user-attachments/assets/4aa6c0fd-37f3-4038-8f3b-1e9699a8ca47" />
 
 
 
